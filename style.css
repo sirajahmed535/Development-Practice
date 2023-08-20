@@ -1,0 +1,125 @@
+*{
+    box-sizing: inherit;
+}
+
+.nav-bar-class{
+    background-color: #0095FE;
+    max-height: 150px !important;
+    width: -webkit-fill-available; 
+    position: fixed !important;
+    
+}
+header, .nav-bar-class{
+    z-index: 2;
+    
+}
+
+.btn-dark{
+    color: white !important;
+}
+
+.navbar-collapse, ul, li, a{
+    color: white !important;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between ;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+.header-slide{
+    width: inherit;
+    position: inherit;
+    object-fit: fill;
+}
+.carousel-caption{
+    bottom: 18rem !important;
+    background-color: black;
+    opacity: 0.8;
+    width: 50%;
+    border-radius: 20px;
+}
+.carousel-item, .carousel-caption{
+    margin: auto;
+
+}
+
+
+.about-us-class1{
+    margin: 100px 10px 10px 10px;
+}
+.about-btn{
+    color: white !important;
+}
+.about-sec-class{
+    object-fit: fill;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 10px;
+}
+.about-img{
+    width: 70%;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.about-img:hover{
+    filter: drop-shadow(0 0 0.3rem blue);
+    transition: 0.3s;
+}
+.card{
+    background-color: rgba(214, 249, 255, 0.5) !important;
+    border: none !important;
+}
+.our-blog{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.blog-slider{
+    margin-top: 120px;
+}
+.card-row{
+    margin-top: 50px;
+}
+.owl-prev,.owl-next{
+    font-size: 50px !important;
+}
+.card-body{
+    text-align: center;
+}
+
+.footer-class{
+    background-color: #0095FE;
+    color: white;
+    margin-top: 100px;
+}
+.footer-cont-class{
+    padding: 50px 50px 0px 0px;
+}
+.quick-links ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.quick-links ul li{
+list-style-type: none;
+}
+
+.address-class ul li{
+    list-style-type: none;  
+}
+.linkss{
+    display: flex;
+    justify-content: flex-start;
+}
+.linkss li{
+    padding-right: 20px;
+}
+.fa-brands{
+    font-size: 30px;
+}
+ul{
+    padding-left: 0px !important;
+}
